@@ -1,0 +1,223 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-07-06 15:39:19.012480",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sarv_pustak_mahiti_section",
+  "lekh_ka_naam",
+  "cover_chhavi",
+  "prakashan",
+  "column_break_dbjc",
+  "lekhak",
+  "sthiti",
+  "isbn_data",
+  "gintii_vishesh_jankari_section",
+  "kul_kitni_copies_biki",
+  "column_break_egxv",
+  "kitne_star_mile_hain",
+  "viskrit_vichar_prastuti_section",
+  "vivran",
+  "other_info_tab",
+  "about_us_section",
+  "srila_prabhupada_wiki",
+  "contact_no",
+  "email",
+  "colour_website_in_your_way_",
+  "table_ldqe",
+  "connected_with_folk_does_16_rounds",
+  "column_break_daqu",
+  "dynamic_info_for_no_of_folk_students",
+  "our_temples_and_centres",
+  "your_fav_iskcon_icon_",
+  "locate_nearest_temple_and_centres"
+ ],
+ "fields": [
+  {
+   "fieldname": "sarv_pustak_mahiti_section",
+   "fieldtype": "Section Break",
+   "label": "SARV PUSTAK MAHITI"
+  },
+  {
+   "fieldname": "lekh_ka_naam",
+   "fieldtype": "Data",
+   "label": "Lekh_Ka_Naam"
+  },
+  {
+   "fieldname": "cover_chhavi",
+   "fieldtype": "Attach Image",
+   "label": "Cover_Chhavi"
+  },
+  {
+   "fieldname": "prakashan",
+   "fieldtype": "Data",
+   "label": "Prakashan"
+  },
+  {
+   "fieldname": "column_break_dbjc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lekhak",
+   "fieldtype": "Data",
+   "label": "Lekhak"
+  },
+  {
+   "fieldname": "sthiti",
+   "fieldtype": "Select",
+   "label": "Sthiti ",
+   "options": "Nirgat\nMaujood ."
+  },
+  {
+   "fieldname": "isbn_data",
+   "fieldtype": "Data",
+   "label": "ISBN (Data)"
+  },
+  {
+   "fieldname": "gintii_vishesh_jankari_section",
+   "fieldtype": "Section Break",
+   "label": "Gintii Vishesh Jankari"
+  },
+  {
+   "fieldname": "kul_kitni_copies_biki",
+   "fieldtype": "Int",
+   "label": "Kul kitni copies biki"
+  },
+  {
+   "fieldname": "column_break_egxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kitne_star_mile_hain",
+   "fieldtype": "Rating",
+   "label": "Kitne star mile hain"
+  },
+  {
+   "fieldname": "viskrit_vichar_prastuti_section",
+   "fieldtype": "Section Break",
+   "label": "Viskrit Vichar Prastuti"
+  },
+  {
+   "fieldname": "vivran",
+   "fieldtype": "Text Editor",
+   "label": "Vivran"
+  },
+  {
+   "fieldname": "other_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Other Info"
+  },
+  {
+   "fieldname": "about_us_section",
+   "fieldtype": "Section Break",
+   "label": "About Us"
+  },
+  {
+   "fieldname": "srila_prabhupada_wiki",
+   "fieldtype": "Text Editor",
+   "label": "Srila Prabhupada Wiki"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Phone",
+   "label": "Contact No."
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "colour_website_in_your_way_",
+   "fieldtype": "Color",
+   "label": "Colour Website in your Way ."
+  },
+  {
+   "fieldname": "table_ldqe",
+   "fieldtype": "Table",
+   "options": "Kram-Silsila"
+  },
+  {
+   "default": "0",
+   "fieldname": "connected_with_folk_does_16_rounds",
+   "fieldtype": "Check",
+   "label": "Connected with folk does 16 rounds"
+  },
+  {
+   "fieldname": "column_break_daqu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dynamic_info_for_no_of_folk_students",
+   "fieldtype": "HTML Editor",
+   "label": "Dynamic Info For No of Folk Students"
+  },
+  {
+   "fieldname": "our_temples_and_centres",
+   "fieldtype": "Button",
+   "label": "Our Temples and Centres "
+  },
+  {
+   "fieldname": "your_fav_iskcon_icon_",
+   "fieldtype": "Icon",
+   "label": "Your Fav Iskcon Icon ."
+  },
+  {
+   "fieldname": "locate_nearest_temple_and_centres",
+   "fieldtype": "Geolocation",
+   "label": "Locate Nearest Temple and Centres "
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "cover_chhavi",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-07 18:38:46.259121",
+ "modified_by": "anishdubey2009@gmail.com",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Lekh",
+ "owner": "anishdubey2009@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Pustakalayadhyaksha",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Pathak",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

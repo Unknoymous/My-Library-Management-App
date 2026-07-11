@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-07-06 18:20:49.875128",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pustak_vikri_suchi_section",
+  "pustak_chitra",
+  "kitaab_ka_naam_1",
+  "kitaab_ka_naam__2",
+  "kitaab_ka_naam_3",
+  "small_text_stjw",
+  "column_break_cbqd",
+  "pie_chart_drishtenti",
+  "bikri_ka_pratishat_1",
+  "bikri_ka_pratishat_2",
+  "bikri_ka_pratishat_3",
+  "small_text_bsxa",
+  "column_break_lirw",
+  "vayumra_nusar_vargikaran",
+  "kya_log_zyada_kharidte_hain_1",
+  "kya_log_zyada_kharidte_hain_2",
+  "kya_log_zyada_kharidte_hain_3",
+  "small_text_ipow"
+ ],
+ "fields": [
+  {
+   "fieldname": "pustak_vikri_suchi_section",
+   "fieldtype": "Section Break",
+   "label": "Pustak Vikri Suchi.",
+   "max_height": "20px",
+   "print_width": "40px",
+   "width": "60px"
+  },
+  {
+   "fieldname": "pustak_chitra",
+   "fieldtype": "Attach Image",
+   "label": "Pustak Chitra "
+  },
+  {
+   "fieldname": "kitaab_ka_naam_1",
+   "fieldtype": "Small Text",
+   "label": "Kitaab ka Naam 1"
+  },
+  {
+   "fieldname": "kitaab_ka_naam__2",
+   "fieldtype": "Small Text",
+   "label": "Kitaab ka Naam  2"
+  },
+  {
+   "fieldname": "kitaab_ka_naam_3",
+   "fieldtype": "Small Text",
+   "label": "Kitaab ka Naam 3"
+  },
+  {
+   "fieldname": "small_text_stjw",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "column_break_cbqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pie_chart_drishtenti",
+   "fieldtype": "Attach Image",
+   "label": "Pie Chart Drishtenti"
+  },
+  {
+   "fieldname": "bikri_ka_pratishat_1",
+   "fieldtype": "Small Text",
+   "label": "Bikri ka Pratishat 1"
+  },
+  {
+   "fieldname": "bikri_ka_pratishat_2",
+   "fieldtype": "Small Text",
+   "label": "Bikri ka Pratishat 2"
+  },
+  {
+   "fieldname": "bikri_ka_pratishat_3",
+   "fieldtype": "Small Text",
+   "label": "Bikri ka Pratishat 3"
+  },
+  {
+   "fieldname": "small_text_bsxa",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "column_break_lirw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vayumra_nusar_vargikaran",
+   "fieldtype": "Attach Image",
+   "label": "Vay/Umra Nusar Vargikaran"
+  },
+  {
+   "fieldname": "kya_log_zyada_kharidte_hain_1",
+   "fieldtype": "Small Text",
+   "label": "Kya log zyada kharidte hain 1"
+  },
+  {
+   "fieldname": "kya_log_zyada_kharidte_hain_2",
+   "fieldtype": "Small Text",
+   "label": "Kya log zyada kharidte hain 2"
+  },
+  {
+   "fieldname": "kya_log_zyada_kharidte_hain_3",
+   "fieldtype": "Small Text",
+   "label": "Kya log zyada kharidte hain 3"
+  },
+  {
+   "fieldname": "small_text_ipow",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-07-07 19:18:13.292476",
+ "modified_by": "Administrator",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Kram-Silsila",
+ "owner": "anishdubey2009@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

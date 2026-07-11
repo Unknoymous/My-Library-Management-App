@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "RMSLM.##",
+ "creation": "2026-07-07 18:39:44.883779",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naam_jankari_section",
+  "pehla_naam",
+  "aakhri_naam",
+  "pura_naam",
+  "column_break_pblv",
+  "emai_id",
+  "ph_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "naam_jankari_section",
+   "fieldtype": "Section Break",
+   "label": "Naam Jankari"
+  },
+  {
+   "fieldname": "pehla_naam",
+   "fieldtype": "Data",
+   "label": "Pehla Naam"
+  },
+  {
+   "fieldname": "aakhri_naam",
+   "fieldtype": "Data",
+   "label": "Aakhri Naam"
+  },
+  {
+   "fieldname": "pura_naam",
+   "fieldtype": "Data",
+   "label": "Pura Naam",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pblv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emai_id",
+   "fieldtype": "Data",
+   "label": "Emai Id"
+  },
+  {
+   "fieldname": "ph_no",
+   "fieldtype": "Phone",
+   "label": "Ph No"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-10 15:47:27.326546",
+ "modified_by": "Administrator",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Pathak",
+ "naming_rule": "Expression",
+ "owner": "anishdubey2009@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

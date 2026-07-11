@@ -1,0 +1,88 @@
+{
+ "app": "rms_library_management",
+ "creation": "2026-07-11 12:59:35.347961",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "for_user": "anishdubey2009@gmail.com",
+ "header_icon": "notebook",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "library-big",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Lekh(Books)",
+   "link_to": "Lekh",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "album",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Len Den(transaction)",
+   "link_to": "Len Den",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "file-spreadsheet",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Pathak (Reader)",
+   "link_to": "Pathak",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "group",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Pathak Sadasyata (Library Membership))",
+   "link_to": "Pathak Sadasyata",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Settings",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Section Break"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "setting",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Pustakalaya Settings",
+   "link_to": "Pustakalaya Settings",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-11 12:59:35.347961",
+ "modified_by": "Administrator",
+ "module_onboarding": "Projects Onboarding",
+ "name": "Pustakalay Prabhandhan",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Pustakalay Prabhandhan"
+}

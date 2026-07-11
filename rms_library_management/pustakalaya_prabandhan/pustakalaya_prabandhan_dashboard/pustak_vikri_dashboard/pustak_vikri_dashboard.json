@@ -1,0 +1,28 @@
+{
+ "cards": [
+  {
+   "card": "Total Lekh"
+  },
+  {
+   "card": "Total Pathak"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Monthly Len Den (Issues)",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-07-11 15:31:43.326245",
+ "dashboard_name": "Pustak Vikri Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-07-11 15:31:43.326245",
+ "modified_by": "Administrator",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Pustak Vikri Dashboard",
+ "owner": "Administrator"
+}

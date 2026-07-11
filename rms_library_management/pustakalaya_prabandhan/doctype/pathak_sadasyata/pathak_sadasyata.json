@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "ancd.-.####",
+ "creation": "2026-07-07 19:48:10.205126",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "brihad_suchi_section",
+  "pathak",
+  "amended_from",
+  "pura_naam",
+  "from_date",
+  "to_date",
+  "paid"
+ ],
+ "fields": [
+  {
+   "fieldname": "pathak",
+   "fieldtype": "Link",
+   "label": "Pathak",
+   "options": "Pathak",
+   "unique": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Pathak Sadasyata",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fetch_from": "pathak.aakhri_naam",
+   "fieldname": "pura_naam",
+   "fieldtype": "Data",
+   "label": "Pura Naam"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "paid",
+   "fieldtype": "Check",
+   "label": "Paid"
+  },
+  {
+   "fieldname": "brihad_suchi_section",
+   "fieldtype": "Section Break",
+   "label": "Brihad Suchi"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-07-09 12:35:44.474044",
+ "modified_by": "Administrator",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Pathak Sadasyata",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

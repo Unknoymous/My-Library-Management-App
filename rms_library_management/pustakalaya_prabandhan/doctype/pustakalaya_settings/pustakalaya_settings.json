@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-07-09 16:37:52.547887",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_o4wn",
+  "rin_awadhi",
+  "jaari_ki_gayi_adhiktam_copies",
+  "ek_baar_mein_maximum_return_hone_wali_copies"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_o4wn",
+   "fieldtype": "Section Break",
+   "label": "Aakhri Settings"
+  },
+  {
+   "fieldname": "rin_awadhi",
+   "fieldtype": "Int",
+   "label": "Rin Awadhi"
+  },
+  {
+   "fieldname": "jaari_ki_gayi_adhiktam_copies",
+   "fieldtype": "Int",
+   "label": "Jaari Ki Gayi Adhiktam Copies"
+  },
+  {
+   "fieldname": "ek_baar_mein_maximum_return_hone_wali_copies",
+   "fieldtype": "Int",
+   "label": "Ek baar mein maximum return hone wali copies"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-07-09 16:50:25.898199",
+ "modified_by": "Administrator",
+ "module": "Pustakalaya Prabandhan",
+ "name": "Pustakalaya Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
